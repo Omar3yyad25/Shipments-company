@@ -6,9 +6,9 @@ import OurPartner from '../component/Common/OurPartner'
 const RequestQuote = () => {
  return (
    <>
-     <CommonBanner heading="Request Clearance" page="Request Clearance" />
+     <CommonBanner heading="Request Route" page="Request Route" />
      <RequestRouteForm/>
-     <OurPartner />
+     {/* <OurPartner /> */}
    </>
  );
 }

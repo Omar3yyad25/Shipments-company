@@ -26,7 +26,6 @@ const ServiceHomeTwo = () => {
             items: 3,
         },
     }
-    console.log(ServiceData)
     return (
         <>
             <section id="home_two_service">
@@ -38,7 +37,7 @@ const ServiceHomeTwo = () => {
                             <div className="service_slider_home_two">
                                 <OwlCarousel className="owl-theme" responsive={responsive} autoplay={true}
                                              autoplayHoverPause={true} autoplayTimeout={2500}
-                                             loop={true} nav={false} dots={true} margin={30}>
+                                             loop={false} nav={false} dots={true} margin={30}>
                                     {ServiceData.map((data, index) => (
                                         <ServiceCard links={data.link} img={data.img} heading={data.heading} para={data.para}
                                                      button={data.button} key={index}/>

@@ -134,7 +134,7 @@ const RequestQuoteForm = () => {
                       type={"text"}
                       name={"dimension"}
                       classes={"form-control"}
-                      placeholder={"Dimension"}
+                      placeholder={"eg. 50x50"}
                       label="Dimension"
                     />
                   </div>

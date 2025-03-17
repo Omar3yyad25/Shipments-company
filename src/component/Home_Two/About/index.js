@@ -21,7 +21,7 @@ const HomeTwoAbout = () => {
                                 </div>
                                 <p>Our warehousing services are recognized nationwide for their reliability, safety, and affordability, reflecting our commitment to delivering the best at reasonable prices.</p>
                                 <p>We take pride in providing comprehensive solutions, ensuring satisfaction while navigating any challenges.</p>
-                                <Link to="/clearance_offices" className="btn btn-theme">Show Clearance Offices</Link>
+                                {/* <Link to="/clearance_offices" className="btn btn-theme">Show Clearance Offices</Link> */}
                             </div>
                         </div>
                     </div>

@@ -74,6 +74,9 @@ const FormInput = (props) => {
                     required
                 />
             )}
+            {tag === 'button' && (
+                <button className={`btn btn-theme`}>{props.val}</button>
+            )}
             
             {tag === 'select' && (
                 <div className="dropdown">

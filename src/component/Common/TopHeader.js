@@ -19,7 +19,7 @@ const TopHeader = () => {
                                 <li>
                                     <a href="tel:+823-456-879">
                                         <i className="fas fa-phone-volume"></i>
-                                        +01023 456 789
+                                        +20 1023 456 789
                                     </a>
                                 </li>
                             </ul>

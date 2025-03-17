@@ -13,11 +13,11 @@ const index2 = () => {
     return (
         <>
             <HomeBannerTwo/>
-            <HomeTwoAbout/>
+            {/* <HomeTwoAbout/> */}
             <ServiceHomeTwo/>
             <HomeTwoCounter/>
-            <HomeTwoMap/>
-            <TeamArea/>
+            {/* <HomeTwoMap/> */}
+            {/* <TeamArea/> */}
             <HomeTwoClient/>
         </>
     )

@@ -10,7 +10,7 @@ const About = () => {
         <>
             <CommonBanner heading="About" page="About"/>
             <HomeTwoAbout/>
-            <ServiceHomeTwo/>
+            {/* <ServiceHomeTwo/> */}
             <TeamArea/>
             <OurPartner/>
 

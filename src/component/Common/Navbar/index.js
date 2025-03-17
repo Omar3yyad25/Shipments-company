@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom';
 // Import Logo
-import logo from '../../../assets/img/logo.png'
+import logo from '../../../assets/img/Logo_trans.png'
 // Import TopHeader
 import TopHeader from '../TopHeader'
 // Import MenuData
@@ -55,7 +55,7 @@ const Navbar = () => {
             <div className="container">
                 <nav className="navbar navbar-expand-md navbar-light">
                   <Link className="navbar-brand" to="/">
-                      <img src="#" alt="logo" />
+                      <img src={logo} alt="logo" style={{width:"80px"}}/>
                   </Link>
 
                   <div className="mean-menu" id="navbarSupportedContent">
@@ -63,11 +63,11 @@ const Navbar = () => {
                             {MenuData.map((item, index) => (
                                 <MenuItems item={item} key={index} />
                             ))}
-                            <li className="menu-item">
+                            {/* <li className="menu-item">
                                 <div className="register-button">
                                     <Link to="/signup" className="btn btn-theme">Register</Link>
                                 </div>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
 

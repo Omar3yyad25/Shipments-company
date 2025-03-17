@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 // Import Logo Import
-import logo from '../../assets/img/logo.png'
+import logo from '../../assets/img/Logo_trans.png'
 
 const FooterItems = [
     {
@@ -31,7 +31,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                             <div className="footer_wedget">
-                                <img src="#" alt="logo_img"/>
+                                <img src={logo} alt="logo_img" style={{width:"80px",boxShadow: "50px"}}/>
                                 <p>Streamlining international trade with efficient and reliable logistics. Let us handle the complexities while you focus on your business.</p>
                                 <div className="footer_social_icon">
                                     <a href="#!"><i className="fab fa-facebook-f"></i></a>
@@ -66,7 +66,7 @@ const Footer = () => {
                                         
                                         <li><i className="far fa-envelope"></i> <a
                                             href="mailto:hello@demo.com">contact@demo.com</a></li>
-                                        <li><i className="fas fa-phone-volume"></i> <a href="tel:+01023-456-789"> +0102 3456 789</a></li>
+                                        <li><i className="fas fa-phone-volume"></i> <a href="tel:+01023-456-789"> +20 102 3456 789</a></li>
                                         <li><i className="far fa-clock"></i>Mon - Sat: 9:00 - 18:00</li>
                                     </ul>
                                 </div>

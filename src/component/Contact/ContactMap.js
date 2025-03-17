@@ -8,7 +8,7 @@ const ContactMap = () => {
         margin: "0 0 0 0"
     };
     const defaultCenter = {
-        lat: 22.8136822, lng: 89.5635596
+        lat: 31.2001, lng: 29.9187
     }
     return (
         <>
