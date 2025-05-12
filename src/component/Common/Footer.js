@@ -65,7 +65,7 @@ const Footer = () => {
                                         <li><i className="fas fa-map-marker-alt"></i>Alexandria, Egypt</li>
                                         
                                         <li><i className="far fa-envelope"></i> <a
-                                            href="mailto:hello@demo.com">contact@demo.com</a></li>
+                                            href="mailto:info@seasbroker.com">info@seasbroker.com</a></li>
                                         <li><i className="fas fa-phone-volume"></i> <a href="tel:+01023-456-789"> +20 102 3456 789</a></li>
                                         <li><i className="far fa-clock"></i>Mon - Sat: 9:00 - 18:00</li>
                                     </ul>

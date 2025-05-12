@@ -11,9 +11,9 @@ const TopHeader = () => {
                         <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                             <ul className="left-info">
                                 <li>
-                                    <a href="mailto:hello@demo.com">
+                                    <a href="mailto:info@seasbroker.com">
                                         <i className="far fa-envelope"></i>
-                                        hello@demo.com
+                                        info@seasbroker.com
                                     </a>
                                 </li>
                                 <li>

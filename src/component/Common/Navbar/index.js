@@ -47,41 +47,44 @@ const Navbar = () => {
 
  
  return (
-  <>
+    <>
 <header className="header-area">
-    <TopHeader/>
-    <div className="navbar-area" >
-        <div className="transtics-nav">
-            <div className="container">
-                <nav className="navbar navbar-expand-md navbar-light">
-                  <Link className="navbar-brand" to="/">
-                      <img src={logo} alt="logo" style={{width:"80px"}}/>
-                  </Link>
+        <TopHeader/>
+        <div className="navbar-area" >
+                <div className="transtics-nav">
+                        <div className="container">
+                                <nav className="navbar navbar-expand-md navbar-light">
+                                    <Link className="navbar-brand" to="/">
+                                            <img src={logo} alt="logo" style={{width:"80px"}}/>
+                                    </Link>
+                                        {/* Adjusted Text beside the logo to be in one line */}
+                                        <div className="logo-text" style={{display: "inline-block", verticalAlign: "middle"}}>
+                                                <h4 style={{margin: 0, whiteSpace: "nowrap"}}>SEAS BROKER</h4>
+                                        </div>
+                                    <div className="mean-menu" id="navbarSupportedContent">
+                                                <ul className="navbar-nav">
+                                                        {MenuData.map((item, index) => (
+                                                                <MenuItems item={item} key={index} />
+                                                        ))}
+                                                        {/* <li className="menu-item">
+                                                                <div className="register-button">
+                                                                        <Link to="/signup" className="btn btn-theme">Register</Link>
+                                                                </div>
+                                                        </li> */}
+                                                </ul>
+                                        </div>
 
-                  <div className="mean-menu" id="navbarSupportedContent">
-                        <ul className="navbar-nav">
-                            {MenuData.map((item, index) => (
-                                <MenuItems item={item} key={index} />
-                            ))}
-                            {/* <li className="menu-item">
-                                <div className="register-button">
-                                    <Link to="/signup" className="btn btn-theme">Register</Link>
-                                </div>
-                            </li> */}
-                        </ul>
-                    </div>
-
-                </nav>
-            </div>
-        </div>
-        <div className="transtics-responsive-nav">
-                    <div className="container">
-                        <div className="responsive-button" onClick={handleClick}>
-                            {click ? <AiOutlineClose/> : <HiMenuAlt3/>}
+                                </nav>
                         </div>
-                    </div>
                 </div>
-    </div>
+                <div className="transtics-responsive-nav">
+                                        <div className="container">
+                                                <div className="responsive-button" onClick={handleClick}>
+                                                        {click ? <AiOutlineClose/> : <HiMenuAlt3/>}
+                                                </div>
+                                        </div>
+                                </div>
+        </div>
 </header>
 <SearchForm/>
  </>

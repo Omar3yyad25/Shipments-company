@@ -45,7 +45,7 @@ const HomeBannerTwo = () => {
                                             <div className="banner-text-two">
                                                 <h1>Reliable Shipping, Every Time</h1>
                                                 <p>Streamlining international trade with efficient and reliable logistics. Let us handle the complexities while you focus on your business.</p>
-                                                <Link className="btn btn-theme" to="/request_quote">Get A Quote</Link>
+                                                <a className="btn btn-theme" href="#home_two_service" >Get A Quote</a>
                                             </div>
                                         </div>
                                         {/* <div className="col-lg-6 col-md-12 col-sm-12 col-12">

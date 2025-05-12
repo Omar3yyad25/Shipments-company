@@ -9,8 +9,7 @@ const ServiceCard = props => {
                 <div className="service-caption">
                     <h3>{props.heading}</h3>
                     <p>{props.para}</p>
-                    <Link to={`${props.links}`} className="read_more_btn">{props.button}<i
-                        className="fas fa-long-arrow-alt-right"></i></Link>
+                    <Link to={`${props.links}`} className="btn btn-theme">{props.button}</Link>
                 </div>
             </div>
         </>

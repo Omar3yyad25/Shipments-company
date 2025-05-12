@@ -1,6 +1,6 @@
 import img1 from '../../../assets/img/service/serv-1.jpg'
 import img2 from '../../../assets/img/service/serv-2.jpg'
-import img3 from '../../../assets/img/service/serv-3.jpg'
+import img3 from '../../../assets/img/service/serv-5.jpg'
 
 
 export const ServiceData = [

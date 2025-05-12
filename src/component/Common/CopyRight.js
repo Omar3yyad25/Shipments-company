@@ -10,7 +10,7 @@ const CopyRight = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="copy-right-area">
-                            <p>Copyright &copy; {currentYear} <span>Ayyad.</span> All Rights Reserved</p>
+                            <p>Copyright &copy; {currentYear} <span>Seas Broker.</span> All Rights Reserved</p>
                         </div>
                     </div>
                 </div>

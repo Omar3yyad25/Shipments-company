@@ -49,7 +49,7 @@ const HomeAbout = () => {
                                 <div className="about_sign_arae">
                                     <div className="distaion_area">
                                         <h5>Jonathon Doelan</h5>
-                                        <h6>Chairman, Demo</h6>
+                                        <h6>Chairman, info@seasbroker.com</h6>
                                     </div>
                                     <div className="signature">
                                         <img src={img2} alt="About_Img"/>
