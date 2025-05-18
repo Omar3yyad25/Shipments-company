@@ -2735,7 +2735,12 @@ Search Overlay CSS
 .service-card .service-caption {
     padding: 30px 20px;
     background: #ffffff;
+    height: 280px; /* fixed height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
 
 .service-card .service-caption h3 {
     font-size: 22px;
